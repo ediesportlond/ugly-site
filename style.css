@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+marquee{
+    color:rgba(131, 128, 119, 0.249)
+}
+
+body {
+    background-color: greenyellow;
+    color: rgb(237, 231, 212);
+    font-size: 24pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.catpic {
+    display: block;
+    position: relative;
+}
+
+img {
+    float: right;
+    z-index: 2;
+}
+
+h5, h2{
+  text-align: center;  
+}
+
+h1, h3{
+    text-align: end;
+}
+
+.resize {
+    font-size: 60pt;
+}
